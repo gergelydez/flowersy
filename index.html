@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flowersy | Soap Flower Butique</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav navbar">
+        <a href="#" class="nav__logo">Flowersy</a>
+        <ul class="nav__links nav-menu">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Events</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Products</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a
+              class="btn__filter nav__link nav__link--btn btn--show-modal"
+              href="#"
+              >Order now!</a
+            >
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Made with 100% soap ingredients
+        </h1>
+
+        <img
+          class="header__img"
+          src="images/cut20.jpg"
+          class="header__img"
+          alt="Soap Flower Box "
+        />
+        <div class="btn_filter btn--scroll-to-product">
+          <a class="nav__link">Products</a>
+        </div>
+        <h4>They are the perfect gift to make someone feel special.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h1 class="section__header">Advantages of Soap Flowers</h1>
+      </div>
+
+      <div class="features">
+        <img
+          src="images/cos4-lazy.jpg"
+          data-src="images/cos4.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">
+            Each individual flower is packed full of beautiful floral scents.
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Great décor.</h5>
+          <p>
+            Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+            inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+            quibusdam!
+          </p>
+        </div>
+        <img
+          src="images/cut25-lazy.jpg"
+          data-src="images/cut25.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="images/bathh-lazy.jpg"
+          data-src="images/bathh.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">
+            Leaving your skin feeling silky and soft at bathtime.
+          </h5>
+          <p>
+            Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+            eveniet consequatur odit quam quos possimus assumenda dicta fuga
+            inventore ab.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Events</h2>
+        <h1 class="section__header">Events you’d usually buy flowers for:</h1>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="
+              btn
+              operations__tab operations__tab--1 operations__tab--active
+            "
+            data-tab="1"
+          >
+            <span>01</span>Birthdays
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Anniversaries
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Weddings
+          </button>
+        </div>
+        <div
+          class="
+            operations__content
+            operations__content--1
+            operations__content--active
+          "
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            The most people surprise their loves with flower boxes on birthday
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            The best gift for anniversarys are the orchid arrangements
+          </h5>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Beautifully packed Soap Flowers are a perfect gift for wedding
+          </h5>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="section--3">
+      <div class="section__title">
+        <h2 class="section__description">Products</h2>
+        <h1 class="section__header">
+          Check out our soap flowers selection 
+        </h1>
+      </div>
+
+      <div class="filter__container">
+        <div class="filters">
+          <div class="filter btn_filter current" data-filter="all">ALL</div>
+          <div class="filter btn_filter" data-filter="orchid">orchid</div>
+          <div class="filter btn_filter" data-filter="box">box</div>
+          <div class="filter btn_filter" data-filter="basket">basket</div>
+        </div>
+
+        <div class="products" id="product-filterable"></div>
+      </div>
+    </section>
+
+    <section class="section" id="section--4">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h1 class="section__header">
+          Millions of peoples are already making their loves happy.
+        </h1>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Bouquets are artistically arranged and beautifully presented in a
+              gift bag..
+            </h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis,
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              They are a perfect addition for a relaxing romantic bath
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Cost-effective and unique.</h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--order-now">
+      <div class="section__title">
+        <h1 class="section__header">
+          Why don't you order today? These luxury Soap Flowers are a stunning
+          gift, sure to delight!
+        </h1>
+      </div>
+      <button class="btn btn--show-modal">Order now!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+
+      <p class="footer__copyright">
+        &copy; <span class="year"></span> Copyright by Flowersy-Gergely Dezso. 
+        All rights reserved.
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://www.linkedin.com/in/dezso-gergely-9356a3208/"
+          > </a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Order your bouquet <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
